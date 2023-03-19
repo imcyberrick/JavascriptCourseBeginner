@@ -1,2 +1,4 @@
 var a = "Paul";
 let b = "Joe";
+
+const c = "Alice";
