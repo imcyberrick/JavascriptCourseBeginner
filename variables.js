@@ -11,6 +11,11 @@ let d = 1;
 let e = 1.5;
 
 let f = true;
+console.log(f);
 
-
+console.log(d);
+d = 0;
+console.log(d);
+d = null;
+console.log(d);
 
