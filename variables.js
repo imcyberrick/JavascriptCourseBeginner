@@ -3,6 +3,14 @@ let b = "Joe";
 
 const c = "Alice";
 
-let d = 1;
+console.log(a);
+console.log(b);
+console.log(c);
 
-let e = true;
+let d = 1;
+let e = 1.5;
+
+let f = true;
+
+
+
