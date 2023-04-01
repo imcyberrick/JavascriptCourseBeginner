@@ -19,3 +19,8 @@ console.log(d);
 d = null;
 console.log(d);
 
+d = undefined;
+console.log(d);
+
+//BigInt explanation
+
