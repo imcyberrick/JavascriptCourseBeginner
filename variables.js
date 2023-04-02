@@ -22,5 +22,9 @@ console.log(d);
 d = undefined;
 console.log(d);
 
-//BigInt explanation
+d = 999999999999999999999999999999;
+console.log(d);
+d = 999999999999999999999999999999n;
+console.log(d);
+d = BigInt(999999999999999999999999999999);
 
