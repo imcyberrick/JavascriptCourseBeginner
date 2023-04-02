@@ -7,3 +7,9 @@ let mul = a * b;
 let div = a / b;
 
 let x = (a + b) - 1;
+
+a++;
+console.log(a);
+
+b--;
+console.log(b);
