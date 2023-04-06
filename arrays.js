@@ -18,3 +18,6 @@ console.log(array);
 
 array.pop();
 console.log(array)
+
+let array3 = array.slice(1, 2);
+console.log(array3);
