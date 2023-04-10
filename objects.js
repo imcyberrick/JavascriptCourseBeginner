@@ -14,3 +14,14 @@ console.log(JSON.stringify(jacket));
 
 delete jacket.size;
 console.log(JSON.stringify(jacket));
+
+jacket.size = "M";
+console.log(JSON.stringify(jacket));
+
+delete jacket.color;
+jacket.colors = {
+  colorFront: "Black",
+  colorBack: "Black",
+  colorSleeves: "White"
+};
+console.log(JSON.stringify(jacket));
