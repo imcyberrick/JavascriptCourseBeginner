@@ -27,9 +27,14 @@ jacket.colors = {
 console.log(JSON.stringify(jacket));
 
 jacket.colors.colorFront = "Gray";
-jacket.colors.colorBack = "Gray";
+jacket["colors"]["colorBack"] = "Gray";
 console.log(JSON.stringify(jacket));
 
 jacket.materials = [
   "Cotton", "Polyester"
 ];
+console.log(JSON.stringify(jacket));
+
+jacket.materials[1] = "Linen";
+console.log(JSON.stringify(jacket));
+
