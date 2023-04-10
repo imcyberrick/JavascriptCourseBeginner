@@ -25,3 +25,11 @@ jacket.colors = {
   colorSleeves: "White"
 };
 console.log(JSON.stringify(jacket));
+
+jacket.colors.colorFront = "Gray";
+jacket.colors.colorBack = "Gray";
+console.log(JSON.stringify(jacket));
+
+jacket.materials = [
+  "Cotton", "Polyester"
+];
