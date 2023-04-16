@@ -7,3 +7,5 @@ Chapters:
 - Arrays
 - Objects
 - Functions
+
+Youtube video coming in a few days
